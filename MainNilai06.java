@@ -36,11 +36,11 @@ public class MainNilai06 {
         System.out.println("HASIL PENGOLAHAN DATA");
         
 
-        // a) Nilai UTS tertinggi menggunakan Divide and Conquer [cite: 236]
+        // a) Nilai UTS tertinggi menggunakan Divide and Conquer 
         int tertinggi = hitung.getNilaiUTSTertinggiDC(daftarMhs, 0, daftarMhs.length - 1);
         System.out.println("Nilai UTS Tertinggi (DC) : " + tertinggi);
 
-        // b) Nilai UTS terendah menggunakan Divide and Conquer [cite: 237]
+        // b) Nilai UTS terendah menggunakan Divide and Conquer 
         int terendah = hitung.getNilaiUTSTerendahDC(daftarMhs, 0, daftarMhs.length - 1);
         System.out.println("Nilai UTS Terendah (DC)  : " + terendah);
 
