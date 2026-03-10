@@ -7,8 +7,8 @@ public class Pangkat06 {
     }
     int pangkatBF (int a, int n){
         int hasil = 1;
-        for (int i = 1; i <= n; i++) {
-            hasil = hasil * a;
+        for (int i = 1; i <= pangkat; i++) {
+            hasil = hasil * nilai;
         }
         return hasil;
     }
